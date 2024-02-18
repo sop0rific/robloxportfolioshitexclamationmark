@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>roblox gfx page</title>
+    <link rel="icon" href="assets/favvy.ico" type="image/x-icon" />
+</head>
+
+<body class="flexColumn">
+    <a href="betterversion.html" class="goback box">go back!</a>
+
+    <header class="flexColumn">
+        <h1 class="box">roblox gfx</h1>
+        <p class="box">by sopo !!!</p>
+        <p class="box">i take roblox gfx comissions! you can dm me on discord to discuss what you'd be looking for!</p>
+    </header>
+
+    <main class="box main">
+
+        <h2>Prices</h2>
+        <ul class="offers flexColumn">
+            <li class="box">100 robux - a pose with lighting - no background</li>
+            <li class="box">150 robux - a pose with lighting, with the background of your choice</li>
+            <li class="box">200 robux - a matching profile picture and banner with backgrounds/text</li>
+        </ul>
+
+        <h2>Gallery</h2>
+        <section class="gallery">
+            <img width="250" height="250" src="assets/6.png" alt="my avatar with no background, for 50 robux!">
+            <img width="250" height="250" src="assets/pink best dressed.png"
+                alt="my avatar with a background, for 100 robux!">
+            <img width="500" height="300" src="assets/erm banner thingy.png"
+                alt="a banner you'd recieve with the background version, 125 robux for both!">
+        </section>
+
+    </main>
+
+    <footer class="box">
+        <p>terms and conditions:</p>
+    </footer>
+
+    <audio controls loop class="audiocontrols">
+        <source src="sealhehe.mp3 " type="audio/mp3" class="audiocontrols">
+        Your browser does not support the audio tag.
+    </audio>
+
+</body>
+
+<style>
+    :root {
+        --theme-primary: #ff677b;
+        --theme-secondary: rgb(196, 63, 85);
+        --theme-tetriary: rgb(114, 33, 44);
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .flexColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .box {
+        border-radius: 2rem;
+        border: 3px currentColor solid;
+        padding: .5rem 1rem;
+        background-color: var(--theme-secondary);
+    }
+
+    body {
+        color: aliceblue;
+        background-color: var(--theme-primary);
+
+        gap: 3rem !important;
+        padding: 2rem;
+    }
+
+    .goback {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: .5rem;
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    /* Header */
+
+    header {
+        text-align: center;
+    }
+
+    header>h1 {
+        font-size: 3rem;
+    }
+
+    /* Main */
+
+    .main {
+        background-color: var(--theme-secondary);
+        padding: 3rem;
+
+        width: min(100%, 80ch);
+
+        text-align: center;
+        padding: 1.5rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .offers {
+        list-style-type: none;
+    }
+
+    .offers>li {
+        background-color: var(--theme-tetriary);
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .gallery>img {
+        flex-grow: 1;
+        border-radius: 1rem;
+        border: 3px currentColor solid;
+        background-color: var(--theme-tetriary);
+        max-width: 100%;
+    }
+
+    /* Foot */
+    .audiocontrols {
+        position: fixed;
+        bottom: 0;
+        width: 10%;
+        height: 10%;
+    }
+</style>
+
+</html>
